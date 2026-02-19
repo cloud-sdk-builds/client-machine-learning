@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-machine-learning`](https://www.npmjs.com/package/@aws-sdk/client-machine-learning/v/3.160.0).
+[`@aws-sdk/client-machine-learning`](https://www.npmjs.com/package/@aws-sdk/client-machine-learning/v/3.161.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.160.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.161.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-KTs7erOOQz9EYtJKybhMqynYSdgmwUo+56ozsBEwE34AmVpB0IK8p6XkqH8hFkUc
+sha384-+Q2Ya3tyfIay7uKuoFJueyZ7P1OPkmVpvXKKbGT0/me+9u1mjTDwMpdT/J8SNEf7
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-machine-learning": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.160.0/index.min.mjs"
+            "@aws-sdk/client-machine-learning": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.161.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.160.0/index.min.mjs": "sha384-KTs7erOOQz9EYtJKybhMqynYSdgmwUo+56ozsBEwE34AmVpB0IK8p6XkqH8hFkUc"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.161.0/index.min.mjs": "sha384-+Q2Ya3tyfIay7uKuoFJueyZ7P1OPkmVpvXKKbGT0/me+9u1mjTDwMpdT/J8SNEf7"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-machine-learning": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.160.0/index.min.mjs"
+                        "@aws-sdk/client-machine-learning": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.161.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.160.0/index.min.mjs": "sha384-KTs7erOOQz9EYtJKybhMqynYSdgmwUo+56ozsBEwE34AmVpB0IK8p6XkqH8hFkUc"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-machine-learning@3.161.0/index.min.mjs": "sha384-+Q2Ya3tyfIay7uKuoFJueyZ7P1OPkmVpvXKKbGT0/me+9u1mjTDwMpdT/J8SNEf7"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.160.0`)
+* Always pin to a specific version (`@3.161.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-machine-learning/blob/refs/tags/3.160.0/LICENSE
+https://github.com/cloud-sdk-builds/client-machine-learning/blob/refs/tags/3.161.0/LICENSE
 ```
 
 ---
